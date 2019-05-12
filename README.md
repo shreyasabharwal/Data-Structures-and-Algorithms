@@ -29,6 +29,19 @@
  1.7|[Rotate Matrix](../master/Arrays%20and%20Strings/1.7rotateMatrix.py)
  1.8|[Zero Matrix](../master/Arrays%20and%20Strings/1.8zeroMatrix.py)
  1.9|[String Rotation](../master/Arrays%20and%20Strings/1.9stringRotation.py)
+ 2.1|[Remove Dups](../master/LinkedList/2.1RemoveDups.py)
+ 2.2|[KthToLast](../master/LinkedList/2.2KthToLast.py)
+ 2.3|[Delete Middle Node](../master/LinkedList/2.3DeleteMiddleNode.py)
+ 2.4|[Partition](../master/LinkedList/2.4Partition.py)
+ 2.5|[Sum Lists](../master/LinkedList/2.5SumLists.py)
+ 2.6|[Palindrome](../master/LinkedList/2.6Palindrome.py)
+ 2.7|[Intersection](../master/LinkedList/2.7Intersection.py)
+ 2.8|[Loop Detection](../master/LinkedList/2.8LoopDetection.py)
  
+ ## Other
+ |*#*| Title |
+ |---|-------|
+ 1|[Linked List Node Insertion](../master/LinkedList/NodeInsertion.py)
+2|[Linked List Node Deletion](../master/LinkedList/NodeDeletion.py) 
 
 
