@@ -37,11 +37,16 @@
  2.6|[Palindrome](../master/LinkedList/2.6Palindrome.py)
  2.7|[Intersection](../master/LinkedList/2.7Intersection.py)
  2.8|[Loop Detection](../master/LinkedList/2.8LoopDetection.py)
+ 3.1|[Three in One](../master/Stacks%20and%20Queues/3.1ThreeInOne.py)
+ 3.2|[Stack Min](../master/Stacks%20and%20Queue/3.2StackMin.py)
+ 3.2|[Stack Min - using additional stack](../master/Stacks%20and%20Queue/3.2StackMin_additionalStack.py)
  
  ## Other
  |*#*| Title |
  |---|-------|
  1|[Linked List Node Insertion](../master/LinkedList/NodeInsertion.py)
-2|[Linked List Node Deletion](../master/LinkedList/NodeDeletion.py) 
+ 2|[Linked List Node Deletion](../master/LinkedList/NodeDeletion.py) 
+ 3|[Linked List Implementation of Stack.py](../master/Stacks%20and%20Queue/LinkedListImplementationofStack.py)
+ 4|[Linked List Implementation of Queue.py](../master/Stacks%20and%20Queue/LinkedListImplementationofQueue.py) 
 
 
