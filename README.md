@@ -46,7 +46,7 @@
  |---|-------|
  1|[Linked List Node Insertion](../master/LinkedList/NodeInsertion.py)
  2|[Linked List Node Deletion](../master/LinkedList/NodeDeletion.py) 
- 3|[Linked List Implementation of Stack.py](../master/Stacks%20and%20Queue/LinkedListImplementationofStack.py)
- 4|[Linked List Implementation of Queue.py](../master/Stacks%20and%20Queue/LinkedListImplementationofQueue.py) 
+ 3|[Linked List Implementation of Stack](../master/Stacks%20and%20Queue/LinkedListImplementationofStack.py)
+ 4|[Linked List Implementation of Queue](../master/Stacks%20and%20Queue/LinkedListImplementationofQueue.py) 
 
 
