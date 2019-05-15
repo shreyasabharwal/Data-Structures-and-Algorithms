@@ -40,6 +40,8 @@
  3.1|[Three in One](../master/Stacks%20and%20Queues/3.1ThreeInOne.py)
  3.2|[Stack Min](../master/Stacks%20and%20Queue/3.2StackMin.py)
  3.2|[Stack Min - using additional stack](../master/Stacks%20and%20Queue/3.2StackMin_additionalStack.py)
+ 3.3|[Stack of Plates](../master/Stacks%20and%20Queue/3.3StackOfPlates.py)
+ 
  
  ## Other
  |*#*| Title |
