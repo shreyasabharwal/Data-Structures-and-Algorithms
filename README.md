@@ -41,6 +41,9 @@
  3.2|[Stack Min](../master/Stacks%20and%20Queues/3.2StackMin.py)
  3.2|[Stack Min - using additional stack](../master/Stacks%20and%20Queues/3.2StackMin_additionalStack.py)
  3.3|[Stack of Plates](../master/Stacks%20and%20Queues/3.3StackOfPlates.py)
+ 8.1|[Triple Step](../master/Recursion%20and%20Dynamic%20Programming/8.1TripleStep.py) 
+ 8.2|[Robot In a Grid](../master/Recursion%20and%20Dynamic%20Programming/8.2RobotInAGrid.py) 
+
  
  
  ## Other
@@ -50,5 +53,9 @@
  2|[Linked List Node Deletion](../master/LinkedList/NodeDeletion.py) 
  3|[Linked List Implementation of Stack](../master/Stacks%20and%20Queue/LinkedListImplementationofStack.py)
  4|[Linked List Implementation of Queue](../master/Stacks%20and%20Queue/LinkedListImplementationofQueue.py) 
+ 5|[Fibonacci - Memoization](../master/Recursion%20and%20Dynamic%20Programming/Fibonacci.py) 
+ 6|[DNAAnalyzer](../master/Recursion%20and%20Dynamic%20Programming/DNAAnalyzer.py) 
+  
+
 
 
