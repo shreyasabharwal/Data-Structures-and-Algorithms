@@ -43,6 +43,7 @@
  3.3|[Stack of Plates](../master/Stacks%20and%20Queues/3.3StackOfPlates.py)
  8.1|[Triple Step](../master/Recursion%20and%20Dynamic%20Programming/8.1TripleStep.py) 
  8.2|[Robot In a Grid](../master/Recursion%20and%20Dynamic%20Programming/8.2RobotInAGrid.py) 
+ 8.3|[Magic Index](../master/Recursion%20and%20Dynamic%20Programming/8.3MagicIndex.py) 
 
  
  
