@@ -6,7 +6,7 @@ FOLLOW UP
 What if the values are not distinct?
 Hints: # 170, #204, #240, #286, #340'''
 
-''' This could be done using binary search, but use the information provided: "sorted array of distinct integers"'''
+''' This could be done using linear search, but use the information provided: "sorted array of distinct integers"'''
 
 
 def magicIndex(arr, start, end):
