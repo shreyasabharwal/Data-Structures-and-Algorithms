@@ -57,7 +57,14 @@
  4|[Linked List Implementation of Queue](../master/Stacks%20and%20Queue/LinkedListImplementationofQueue.py) 
  5|[Fibonacci - Memoization](../master/Recursion%20and%20Dynamic%20Programming/Fibonacci.py) 
  6|[DNAAnalyzer](../master/Recursion%20and%20Dynamic%20Programming/DNAAnalyzer.py) 
-  
+ 7|[countPairs](../master/Arrays%20and%20Strings/countPairs.py)
+ 8|[makeAnagrams](../master/Arrays%20and%20Strings/makeAnagrams.py)
+ 9|[bubbleSort](../master/Sorting/bubbleSort.py)
+ 10|[insertionSort](../master/Sorting/insertionSort.py	)
+ 11|[mergeSort](../master/Sorting/mergeSort.py)
+ 12|[quickSort](../master/Sorting/quickSort.py)
+ 13|[selectionSort](../master/Sorting/selectionSort.py)
+ 
 
 
 
