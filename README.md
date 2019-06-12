@@ -49,6 +49,11 @@
  10.2|[Group Anagrams](../master/Sorting/10.2GroupAnagrams.py) 
  10.3|[Search In RotatedArray](../master/Sorting/10.3SearchInRotatedArray.py) 
  10.5|[Sparse Search](../master/Sorting/10.5SparseSearch.py) 
+ 4.2|[Minimal Tree](../master/Trees/4.2MinimalTree.py) 
+ 4.3|[List of Depths](../master/Trees/4.3ListOfDepths.py)
+ 4.4|[Check Balanced](../master/Trees/4.4CheckBalanced.py)
+ 4.5|[Validate BST](../master/Trees/4.5ValidateBST.py)
+ 4.6|[Successor](../master/Trees/4.6Successor.py)
 
  
  
