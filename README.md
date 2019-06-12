@@ -45,10 +45,10 @@
  8.2|[Robot In a Grid](../master/Recursion%20and%20Dynamic%20Programming/8.2RobotInAGrid.py) 
  8.3|[Magic Index](../master/Recursion%20and%20Dynamic%20Programming/8.3MagicIndex.py) 
  8.4|[Power Set](../master/Recursion%20and%20Dynamic%20Programming/8.4PowerSet.py) 
- 10.1|[SortedMerge](../master/Sorting/10.1SortedMerge.py) 
- 10.2|[GroupAnagrams](../master/Sorting/10.2GroupAnagrams.py) 
- 10.3|[SearchInRotatedArray](../master/Sorting/10.3SearchInRotatedArray.py) 
- 10.5|[SparseSearch](../master/Sorting/10.5SparseSearch.py) 
+ 10.1|[Sorted Merge](../master/Sorting/10.1SortedMerge.py) 
+ 10.2|[Group Anagrams](../master/Sorting/10.2GroupAnagrams.py) 
+ 10.3|[Search In RotatedArray](../master/Sorting/10.3SearchInRotatedArray.py) 
+ 10.5|[Sparse Search](../master/Sorting/10.5SparseSearch.py) 
 
  
  
@@ -61,13 +61,13 @@
  4|[Linked List Implementation of Queue](../master/Stacks%20and%20Queue/LinkedListImplementationofQueue.py) 
  5|[Fibonacci - Memoization](../master/Recursion%20and%20Dynamic%20Programming/Fibonacci.py) 
  6|[DNAAnalyzer](../master/Recursion%20and%20Dynamic%20Programming/DNAAnalyzer.py) 
- 7|[countPairs](../master/Arrays%20and%20Strings/countPairs.py)
- 8|[makeAnagrams](../master/Arrays%20and%20Strings/makeAnagrams.py)
- 9|[bubbleSort](../master/Sorting/bubbleSort.py)
- 10|[insertionSort](../master/Sorting/insertionSort.py	)
- 11|[mergeSort](../master/Sorting/mergeSort.py)
- 12|[quickSort](../master/Sorting/quickSort.py)
- 13|[selectionSort](../master/Sorting/selectionSort.py)
+ 7|[Count Pairs](../master/Arrays%20and%20Strings/countPairs.py)
+ 8|[Make Anagrams](../master/Arrays%20and%20Strings/makeAnagrams.py)
+ 9|[Bubble Sort](../master/Sorting/bubbleSort.py)
+ 10|[Insertion Sort](../master/Sorting/insertionSort.py	)
+ 11|[Merge Sort](../master/Sorting/mergeSort.py)
+ 12|[Quick Sort](../master/Sorting/quickSort.py)
+ 13|[Selection Sort](../master/Sorting/selectionSort.py)
  
 
 
