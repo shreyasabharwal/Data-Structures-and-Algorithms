@@ -68,6 +68,7 @@
  11|[Merge Sort](../master/Sorting/mergeSort.py)
  12|[Quick Sort](../master/Sorting/quickSort.py)
  13|[Selection Sort](../master/Sorting/selectionSort.py)
+ 14|[BST Basic Operations](../master/Trees/TreesBasicOperations.py)
  
 
 
