@@ -45,6 +45,10 @@
  8.2|[Robot In a Grid](../master/Recursion%20and%20Dynamic%20Programming/8.2RobotInAGrid.py) 
  8.3|[Magic Index](../master/Recursion%20and%20Dynamic%20Programming/8.3MagicIndex.py) 
  8.4|[Power Set](../master/Recursion%20and%20Dynamic%20Programming/8.4PowerSet.py) 
+ 10.1|[SortedMerge](../master/Sorting/10.1SortedMerge.py) 
+ 10.2|[GroupAnagrams](../master/Sorting/10.2GroupAnagrams.py) 
+ 10.3|[SearchInRotatedArray](../master/Sorting/10.3SearchInRotatedArray.py) 
+ 10.5|[SparseSearch](../master/Sorting/10.5SparseSearch.py) 
 
  
  
