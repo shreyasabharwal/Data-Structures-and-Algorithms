@@ -7,6 +7,24 @@
         Input: A -> B -> C - > D -> E -> C[the same C as earlier)
         Output: C
 '''
+'''
+https://www.youtube.com/watch?v=-YiQZi3mLq0&feature=youtu.be
+
+N = Total nodes moved by fast pointer
+2N = Total nodes moved by slow pointer
+D = nodes before start of the loop
+k = nodes from start of the loop y intersection point 
+C= length of cycle
+i, j = number of iterations made by fast and slow pointer respectively.
+N = D+k+C(i)
+2N = D+k+C(j)
+
+2D+2k+2C(i) = D+k+C(j)
+D+k = C(j-2i)
+D = C(j-2i)-k
+
+This implies after covering (j-2i) cycles we are going to fall short by k nodes from start of the loop
+'''
 
 
 class Node:
