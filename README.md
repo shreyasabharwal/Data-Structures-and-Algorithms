@@ -11,6 +11,7 @@
 35 |[Search Insert Position](../master/Arrays%20and%20Strings/35.searchInsertPosition.py)
 53 |[Maximum Subarray](../master/Arrays%20and%20Strings/53.maximumSubarray.py)
 66 |[Plus One](../master/Arrays%20and%20Strings/66.plusOne.py)
+88 |[Merge Sorted Arrays](../master/Arrays%20and%20Strings/88.MergeSort.py)
 136 |[Single Number](../master/Arrays%20and%20Strings/136.SingleNumber.py)
 169 |[Majority Element](../master/Arrays%20and%20Strings/169.majorityElement.py)
 189 |[Rotate Array](../master/Arrays%20and%20Strings/189.rotateArray.py)
