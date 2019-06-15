@@ -5,16 +5,22 @@
  |*#*| Title |
  |---|-------|
 1 |[Two Sum](../master/Arrays%20and%20Strings/1.twoSum.py)
+13 |[Roman To Integer](../master/Arrays%20and%20Strings/13.RomanToInteger.py)
 26 |[Remove Duplicates from Sorted Array](../master/Arrays%20and%20Strings/26.removeDuplicatesFrmSortedArray.py)
 27 |[Remove Element](../master/Arrays%20and%20Strings/27.removeElement.py)
 35 |[Search Insert Position](../master/Arrays%20and%20Strings/35.searchInsertPosition.py)
 53 |[Maximum Subarray](../master/Arrays%20and%20Strings/53.maximumSubarray.py)
 66 |[Plus One](../master/Arrays%20and%20Strings/66.plusOne.py)
+136 |[Single Number](../master/Arrays%20and%20Strings/136.SingleNumber.py)
 169 |[Majority Element](../master/Arrays%20and%20Strings/169.majorityElement.py)
 189 |[Rotate Array](../master/Arrays%20and%20Strings/189.rotateArray.py)
 217 |[Contains Duplicate](../master/Arrays%20and%20Strings/217.containsDuplicate.py)
+242 |[ValidAnagram](../master/Arrays%20and%20Strings/242.ValidAnagram.py)
 268 |[Missing Number](../master/Arrays%20and%20Strings/268.missingNumber.py)
 283 |[Move Zeros](../master/Arrays%20and%20Strings/283.moveZeros.py)
+344 |[Reverse String](../master/Arrays%20and%20Strings/344.ReverseString.py)
+387 |[First Unique Character](../master/Arrays%20and%20Strings/387.FirstUniqueChar.py)
+438 |[Find All Anagrams](../master/Arrays%20and%20Strings/438.FindAllAnagrams.py)
 
 ## Cracking the Coding Interview
 
