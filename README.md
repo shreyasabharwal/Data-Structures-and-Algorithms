@@ -15,6 +15,8 @@
 136 |[Single Number](../master/Arrays%20and%20Strings/136.SingleNumber.py)
 169 |[Majority Element](../master/Arrays%20and%20Strings/169.majorityElement.py)
 189 |[Rotate Array](../master/Arrays%20and%20Strings/189.rotateArray.py)
+202 |[Happy Number](../master/Arrays%20and%20Strings/202.HappyNumber.py)
+204 |[Count Primes](../master/Arrays%20and%20Strings/204.CountPrimes.py)
 217 |[Contains Duplicate](../master/Arrays%20and%20Strings/217.containsDuplicate.py)
 242 |[ValidAnagram](../master/Arrays%20and%20Strings/242.ValidAnagram.py)
 268 |[Missing Number](../master/Arrays%20and%20Strings/268.missingNumber.py)
