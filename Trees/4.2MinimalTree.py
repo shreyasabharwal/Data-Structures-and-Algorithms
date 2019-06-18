@@ -9,19 +9,7 @@ becomes the root of the node. The left half of the array will become our left su
 the array will become the right subtree.'''
 
 
-class TreeNode:
-    def __init__(self, data=None):
-        self.data = data
-        self.left = None
-        self.right = None
-
-    def printInOrder(self):
-        '''print elements - in-order traversal'''
-        if self.left:
-            self.left.printInOrder()
-        print(self.data)
-        if self.right:
-            self.right.printInOrder()
+from TreesBasicOperations import Node as TreeNode
 
 
 def minimalTree(arr):

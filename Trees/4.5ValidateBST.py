@@ -2,28 +2,7 @@
 '''
 
 import math
-
-
-class Node:
-    def __init__(self, data=None):
-        self.data = data
-        self.left = None
-        self.right = None
-
-    def insert(self, data):
-        '''insert a new node'''
-        if self is None:
-            self = Node(data)
-        if data < self.data:  # left node
-            if self.left is not None:
-                self.left.insert(data)
-            else:
-                self.left = Node(data)
-        else:
-            if self.right is not None:
-                self.right.insert(data)
-            else:
-                self.right = Node(data)
+from TreesBasicOperations import Node
 
 
 def checkBST(root):

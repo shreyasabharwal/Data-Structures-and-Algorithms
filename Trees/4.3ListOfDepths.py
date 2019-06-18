@@ -2,6 +2,8 @@
 at each depth(e.g., if you have a tree with depth D, you 'll have D linked lists).
 '''
 
+from TreesBasicOperations import Node as TreeNode
+
 
 class LinkedListNode:
     def __init__(self, data=None):
@@ -30,28 +32,6 @@ class LinkedList:
         while current != None:
             print(current.data, end='\t')
             current = current.next
-
-
-class TreeNode:
-    def __init__(self, data=None):
-        self.data = data
-        self.left = None
-        self.right = None
-
-    def insert(self, data):
-        '''insert a new node'''
-        if self is None:
-            self = TreeNode(data)
-        if data < self.data:  # left node
-            if self.left is not None:
-                self.left.insert(data)
-            else:
-                self.left = TreeNode(data)
-        else:
-            if self.right is not None:
-                self.right.insert(data)
-            else:
-                self.right = TreeNode(data)
 
 
 def getListOfDepths(root):
