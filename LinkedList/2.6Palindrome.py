@@ -2,34 +2,7 @@
 '''
 
 # Node Insertion
-
-
-class Node:
-    # constructor
-    def __init__(self, data=None):
-        self.data = data
-        self.next = None
-
-
-class LinkedList:
-    def __init__(self, head=None):
-        self.head = head
-
-    def length(self):
-        "Print number of elements"
-        current = self.head
-        count = 0
-        while current != None:
-            count += 1
-            current = current.next
-        return count
-
-    def printElements(self):
-        "Print elements of the linked list"
-        current = self.head
-        while current != None:
-            print(current.data, end='\t')
-            current = current.next
+from NodeInsertion import Node, LinkedList
 
 
 def printElements(current):

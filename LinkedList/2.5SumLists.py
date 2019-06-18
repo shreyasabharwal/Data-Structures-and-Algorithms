@@ -10,13 +10,7 @@
         Input: (6 -> 1 -> 7) + (2 -> 9 -> 5).Thatis, 617 + 295.
         Output: 9 - > 1 - > 2. That is, 912.
 '''
-
-
-class Node:
-    # constructor
-    def __init__(self, data=None):
-        self.data = data
-        self.next = None
+from NodeInsertion import Node, LinkedList
 
 
 def length(current):
@@ -26,18 +20,6 @@ def length(current):
         count += 1
         current = current.next
     return count
-
-
-class LinkedList:
-    def __init__(self, head=None):
-        self.head = head
-
-    def printElements(self):
-        "Print elements of the linked list"
-        current = self.head
-        while current != None:
-            print(current.data, end='\t')
-            current = current.next
 
 
 def sumList(l1, l2, carry):

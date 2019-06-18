@@ -11,26 +11,7 @@ In this problem, you are not given access to the head of the linked list. You on
 The solution is simply to copy the data from the next node over to the current node, and then to delete the
 next node.
 '''
-
-
-class Node:
-    # constructor
-
-    def __init__(self, data=None):
-        self.data = data
-        self.next = None
-
-
-class LinkedList:
-    def __init__(self, head=None):
-        self.head = head
-
-    def printElements(self):
-        "Print elements of the linked list"
-        current = self.head
-        while current != None:
-            print(current.data, end='\t')
-            current = current.next
+from NodeInsertion import Node, LinkedList
 
 
 def deleteNode(node):

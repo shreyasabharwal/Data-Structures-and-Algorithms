@@ -2,41 +2,24 @@
 
 '''Use two pointers k data notes apart. Then keep incrementing both till the fast pointer moves to the last element. When one reaches the end, the other is at kth to last position '''
 
-
-class Node:
-    # constructor
-
-    def __init__(self, data=None):
-        self.data = data
-        self.next = None
+from NodeInsertion import Node, LinkedList
 
 
-class LinkedList:
-    def __init__(self, head=None):
-        self.head = head
+def kthtolast(headNode, k):
+    p1 = headNode.head
+    p2 = headNode.head
+    count = 0
+    while count < k:
+        if p1 is None:
+            return None
+        p1 = p1.next
+        count += 1
 
-    def printElements(self):
-        "Print elements of the linked list"
-        current = self.head
-        while current != None:
-            print(current.data, end='\t')
-            current = current.next
+    while p1 != None:
+        p1 = p1.next
+        p2 = p2.next
 
-    def kthtolast(self, k):
-        p1 = self.head
-        p2 = self.head
-        count = 0
-        while count < k:
-            if p1 is None:
-                return None
-            p1 = p1.next
-            count += 1
-
-        while p1 != None:
-            p1 = p1.next
-            p2 = p2.next
-
-        return p2.data
+    return p2.data
 
 
 if __name__ == "__main__":
@@ -56,4 +39,4 @@ if __name__ == "__main__":
     ll = LinkedList(node1)
     ll.printElements()
 
-    print("\n Kth to last element: ", ll.kthtolast(4))
+    print("\n Kth to last element: ", kthtolast(ll, 4))

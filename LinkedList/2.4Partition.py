@@ -8,64 +8,40 @@
     Output: 3 -> 1 -> 2 -> 10 -> 5 -> 5 -> 8"""
 
 
-class Node:
-    # constructor
-    def __init__(self, data=None):
-        self.data = data
-        self.next = None
+from NodeInsertion import Node, LinkedList
 
 
-class LinkedList:
-    def __init__(self, head=None):
-        self.head = head
-
-    def listLength(self):
-        "Print number of elements"
-        current = self.head
-        count = 0
-        while current != None:
-            count += 1
-            current = current.next
-        return count
-
-    def printElements(self):
-        "Print elements of the linked list"
-        current = self.head
-        while current != None:
-            print(current.data, end='\t')
-            current = current.next
-
-    def partition(self, x):
-        current = self.head
-        beforeHead = None
-        beforeTail = None
-        afterHead = None
-        afterTail = None
-        while current != None:
-            if current.data < x:
-                if beforeHead == None:
-                    beforeHead = current
-                    beforeTail = beforeHead
-                    current = current.next
-                else:
-                    beforeTail.next = current
-                    beforeTail = current
-                    current = current.next
+def partition(headNode, x):
+    current = headNode.head
+    beforeHead = None
+    beforeTail = None
+    afterHead = None
+    afterTail = None
+    while current != None:
+        if current.data < x:
+            if beforeHead == None:
+                beforeHead = current
+                beforeTail = beforeHead
+                current = current.next
             else:
-                if afterHead == None:
-                    afterHead = current
-                    afterTail = afterHead
-                    current = current.next
-                else:
-                    afterTail.next = current
-                    afterTail = current
-                    current = current.next
+                beforeTail.next = current
+                beforeTail = current
+                current = current.next
+        else:
+            if afterHead == None:
+                afterHead = current
+                afterTail = afterHead
+                current = current.next
+            else:
+                afterTail.next = current
+                afterTail = current
+                current = current.next
 
-        if beforeHead == None:
-            return afterHead
+    if beforeHead == None:
+        return afterHead
 
-        beforeTail.next = afterHead
-        return beforeHead
+    beforeTail.next = afterHead
+    return beforeHead
 
 
 if __name__ == "__main__":
@@ -93,6 +69,6 @@ if __name__ == "__main__":
     ll = LinkedList(node1)
     ll.printElements()
 
-    ll.partition(23)
+    partition(ll, 23)
     print("##")
     ll.printElements()

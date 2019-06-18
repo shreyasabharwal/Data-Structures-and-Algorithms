@@ -2,61 +2,37 @@
     FOLLOW UP
     How would you solve this problem if a temporary buffer is not allowed?"""
 
-
-class Node:
-    # constructor
-    def __init__(self, data=None):
-        self.data = data
-        self.next = None
+from NodeInsertion import Node, LinkedList
 
 
-class LinkedList:
-    def __init__(self, head=None):
-        self.head = head
-
-    def listLength(self):
-        "Print number of elements"
-        current = self.head
-        count = 0
-        while current != None:
-            count += 1
+def removeDupsBuffer(headNode):
+    "Remove duplicates with temporary buffer"
+    track_dict = {}
+    current = headNode.head
+    previous = headNode.head
+    while current.next != None:
+        if current.data not in track_dict:
+            track_dict[current.data] = 1
+            previous = current
             current = current.next
-        return count
-
-    def printElements(self):
-        "Print elements of the linked list"
-        current = self.head
-        while current != None:
-            print(current.data, end='\t')
+        else:
+            previous.next = current.next
             current = current.next
+#Complexity = O(n)
 
-    def removeDupsBuffer(self):
-        "Remove duplicates with temporary buffer"
-        track_dict = {}
-        current = self.head
-        previous = self.head
-        while current.next != None:
-            if current.data not in track_dict:
-                track_dict[current.data] = 1
-                previous = current
-                current = current.next
+
+def removeDuplicatesWOBuffer(headNode):
+    "Remove Duplicates without buffer"
+    current = headNode.head
+    while current.next != None:
+        runner = current
+        while runner.next != None:
+            if runner.next.data == current.data:
+                runner.next = runner.next.next
             else:
-                previous.next = current.next
-                current = current.next
-    #Complexity = O(n)
-
-    def removeDuplicatesWOBuffer(self):
-        "Remove Duplicates without buffer"
-        current = self.head
-        while current.next != None:
-            runner = current
-            while runner.next != None:
-                if runner.next.data == current.data:
-                    runner.next = runner.next.next
-                else:
-                    runner = runner.next
-            current = current.next
-    # Time Complexity = O(n^2), space complexity:O(1)
+                runner = runner.next
+        current = current.next
+# Time Complexity = O(n^2), space complexity:O(1)
 
 
 if __name__ == "__main__":
@@ -84,6 +60,6 @@ if __name__ == "__main__":
     ll = LinkedList(node1)
     ll.printElements()
 
-    ll.removeDuplicatesWOBuffer()
+    removeDuplicatesWOBuffer(ll)
     print("\nDuplicates Removed:")
     ll.printElements()
