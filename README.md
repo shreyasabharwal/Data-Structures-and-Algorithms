@@ -30,6 +30,10 @@
 350 |[Intersection Of Two Arrays II](../master/Arrays%20and%20Strings/350.IntersectionOfTwoArrays.py)
 387 |[First Unique Character](../master/Arrays%20and%20Strings/387.FirstUniqueChar.py)
 438 |[Find All Anagrams](../master/Arrays%20and%20Strings/438.FindAllAnagrams.py)
+590 |[N-ary Tree Postorder Traversal](../master/Trees/590.PostOrder.py)
+617 |[Merge Binary Trees](../master/Trees/(../master/Trees/617.MergeBinaryTrees.py)
+700 |[Search BST](../master/Trees/700.SearchBST.py)
+938 |[Range Sum of BST](../master/Trees/938.RangeSumOfBST.py)
 
 ## Cracking the Coding Interview
 
