@@ -53,16 +53,16 @@ class Node:
         '''print elements - pre-order traversal'''
         print(self.data)
         if self.left:
-            self.left.printInOrder()
+            self.left.printPreOrder()
         if self.right:
-            self.right.printInOrder()
+            self.right.printPreOrder()
 
     def printPostOrder(self):
         '''print elements - post-order traversal'''
         if self.left:
-            self.left.printInOrder()
+            self.left.printPostOrder()
         if self.right:
-            self.right.printInOrder()
+            self.right.printPostOrder()
         print(self.data)
 
 
