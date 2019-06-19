@@ -31,7 +31,7 @@
 387 |[First Unique Character](../master/Arrays%20and%20Strings/387.FirstUniqueChar.py)
 438 |[Find All Anagrams](../master/Arrays%20and%20Strings/438.FindAllAnagrams.py)
 590 |[N-ary Tree Postorder Traversal](../master/Trees/590.PostOrder.py)
-617 |[Merge Binary Trees](../master/Trees/(../master/Trees/617.MergeBinaryTrees.py)
+617 |[Merge Binary Trees](../master/Trees/617.MergeBinaryTrees.py)
 700 |[Search BST](../master/Trees/700.SearchBST.py)
 938 |[Range Sum of BST](../master/Trees/938.RangeSumOfBST.py)
 
