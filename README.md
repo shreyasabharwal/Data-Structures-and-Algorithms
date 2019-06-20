@@ -27,7 +27,8 @@
 268 |[Missing Number](../master/Arrays%20and%20Strings/268.missingNumber.py)
 283 |[Move Zeros](../master/Arrays%20and%20Strings/283.moveZeros.py)
 344 |[Reverse String](../master/Arrays%20and%20Strings/344.ReverseString.py)
-350 |[Intersection Of Two Arrays II](../master/Arrays%20and%20Strings/350.IntersectionOfTwoArrays.py)
+349 |[Intersection Of Two Arrays](../master/Sorting/349.IntersectionOfTwoArrays.py)
+350 |[Intersection Of Two Arrays II](../master/Sorting/350.IntersectionOfTwoArraysII.py)
 387 |[First Unique Character](../master/Arrays%20and%20Strings/387.FirstUniqueChar.py)
 438 |[Find All Anagrams](../master/Arrays%20and%20Strings/438.FindAllAnagrams.py)
 559 |[Maximum Depth of N-Ary Tree](../master/Trees/559.MaxDepthNaryTree.py)
@@ -36,8 +37,11 @@
 617 |[Merge Binary Trees](../master/Trees/617.MergeBinaryTrees.py)
 700 |[Search BST](../master/Trees/700.SearchBST.py)
 897 |[Increasing Order Search Tree](../master/Trees/897.IncreasingOrderSearch.py)
+922 |[Sort Array By Parity II](../master/Sorting/922.SortArrayByParityII.py)
 938 |[Range Sum of BST](../master/Trees/938.RangeSumOfBST.py)
 965 |[Univalued Binary Tree](../master/Trees/965.UnivaluedBinaryTree.py)
+976 |[Largest Perimeter Triangle](../master/Sorting/976.LargestPerimeterTriangle.py)
+1030 |[Matrix Cells In Distance Order](../master/Sorting/1030.MatrixCellsInOrder.py)
 
 ## Cracking the Coding Interview
 
