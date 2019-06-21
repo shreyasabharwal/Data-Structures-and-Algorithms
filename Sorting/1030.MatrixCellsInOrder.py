@@ -43,6 +43,5 @@ class Solution(object):
             for j in range(C):
                 dist = abs(r0-i)+abs(c0-j)
                 d_coord[(i, j)] = dist
-        print(d_coord)
 
         return sorted(d_coord, key=lambda x: d_coord[x])
