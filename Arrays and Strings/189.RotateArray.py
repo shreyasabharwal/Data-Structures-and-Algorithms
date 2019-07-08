@@ -30,7 +30,9 @@ class Solution(object):
         :rtype: None Do not return anything, modify nums in-place instead.
         """
         k = k % len(nums)
-        for i in range(self.gcd(len(nums), k)):
+        count = 0
+        i = 0
+        while count < len(nums):
             current = i
             prev = nums[i]  # store the value in the position
 
@@ -40,12 +42,7 @@ class Solution(object):
                 nums[next] = prev  # overide the next
                 prev = temp  # reset prev
                 current = next  # reset current
-
+                count += 1
                 if i == current:
                     break
-
-    def gcd(self, a, b):
-        if b == 0:
-            return a
-        else:
-            return self.gcd(b, a % b)
+            i += 1

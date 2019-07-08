@@ -24,7 +24,7 @@ Note:
 Bonus points if you could solve it both recursively and iteratively.'''
 
 #from queue import Queue
-from LinkedListImplementationofQueue import Queue
+#from LinkedListImplementationofQueue import Queue
 
 
 class TreeNode:
@@ -41,15 +41,17 @@ class Solution(object):
         :type root: TreeNode
         :rtype: bool
         """
-        if root is None:
+        if not root:
             return True
         return self.isMirror(root.left, root.right)
 
     def isMirror(self, t1, t2):
-        if t1 is None and t2 is None:
+        # base cases
+        if not t1 and not t2:
             return True
-        if t1 is None or t2 is None:
+        if not t1 or not t2:
             return False
+
         return t1.data == t2.data and self.isMirror(t1.left, t2.right) and self.isMirror(t1.right, t2.left)
 
     # def isSymmetricIterative(self, root):

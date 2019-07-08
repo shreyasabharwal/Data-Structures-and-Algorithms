@@ -28,9 +28,9 @@ class Solution(object):
         :rtype: int
         """
         depth = 1
-        if root is None:
+        if not root:
             return 0
-        if root.left == None and root.right == None:
+        if not root.left and not root.right:
             return 1
         depth += max(self.maxDepth(root.left), self.maxDepth(root.right))
         return depth

@@ -1,17 +1,11 @@
-'''234. Palindrome Linked List
+'''203. Remove Linked List Elements
 
-Given a singly linked list, determine if it is a palindrome.
+Remove all elements from a linked list of integers that have value val.
 
-Example 1:
-Input: 1->2
-Output: false
+Example:
 
-Example 2:
-Input: 1->2->2->1
-Output: true
-
-Follow up:
-Could you do it in O(n) time and O(1) space?'''
+Input:  1->2->6->3->4->5->6, val = 6
+Output: 1->2->3->4->5'''
 
 
 class ListNode(object):

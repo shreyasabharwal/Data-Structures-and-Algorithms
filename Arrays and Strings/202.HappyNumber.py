@@ -15,7 +15,8 @@ Explanation:
 1^2 + 0^2 + 0^2 = 1'''
 
 
-'''While generating the sum of squares we will end up cycling back to a previously computed answer, and repeat the process. We create a set to keep track of previously computed answers.
+'''
+Approach: While generating the sum of squares we will end up cycling back to a previously computed answer, and repeat the process. We create a set to keep track of previously computed answers.
 '''
 
 

@@ -29,17 +29,14 @@ class Solution(object):
         :type R: int
         :rtype: int
         """
-        sumNodes = 0
         if not root:
             return 0
-        if root.val < L:
+        if root.data < L:
             return self.rangeSumBST(root.right, L, R)
-        if root.val > R:
+        elif root.data > R:
             return self.rangeSumBST(root.left, L, R)
-        sumNodes += root.val
-        sumNodes += self.rangeSumBST(root.left, L, R)
-        sumNodes += self.rangeSumBST(root.right, L, R)
-        return sumNodes
+        else:
+            return root.data+self.rangeSumBST(root.left, L, R)+self.rangeSumBST(root.right, L, R)
 
 
 if __name__ == "__main__":

@@ -15,16 +15,16 @@ class Solution(object):
         :type root: Node
         :rtype: int
         """
-        depth = 1
-        return self.getDepth(root, depth)
+        return self.getDepth(root)
 
-    def getDepth(self, node, depth):
+    def getDepth(self, node):
+        depth = 1
         if not node:
             return 0
         if not node.children:
             return 1
         temp = 0
         for child in node.children:
-            temp = max(temp, self.getDepth(child, depth))
+            temp = max(temp, self.getDepth(child))
         depth += temp
         return depth
