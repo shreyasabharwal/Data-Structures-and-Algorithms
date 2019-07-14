@@ -10,12 +10,12 @@ def kthtolast(headNode, k):
     p2 = headNode.head
     count = 0
     while count < k:
-        if p1 is None:
-            return None
+        if not p1:
+            return
         p1 = p1.next
         count += 1
 
-    while p1 != None:
+    while p1:
         p1 = p1.next
         p2 = p2.next
 

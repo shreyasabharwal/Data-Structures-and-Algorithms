@@ -23,6 +23,8 @@ Do not return anything from your function.'''
 Approach: Replace the value of the node we want to delete with the value in the node after it, and then delete the node after it.
 '''
 
+# same as 2.3DeleteMiddleNode.py
+
 
 class Solution(object):
     def deleteNode(self, node):

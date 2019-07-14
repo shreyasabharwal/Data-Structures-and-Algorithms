@@ -33,14 +33,14 @@ def detectLoop(headNode):
     slow = headNode
     fast = headNode
     # keep 2 pointers - slow and fast. slow moves one step, fast moves 2 steps
-    while(fast != None and fast.next != None):
+    while fast and fast.next:
         slow = slow.next
         fast = fast.next.next
         # meeting point
         if slow == fast:
             break
     # check for no loop
-    if fast == None or fast.next == None:
+    if not fast or fast.next:
         return None
     # head and meeting point are at k steps from loop start
     slow = headNode

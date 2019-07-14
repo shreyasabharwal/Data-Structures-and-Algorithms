@@ -10,7 +10,7 @@ def removeDupsBuffer(headNode):
     track_dict = {}
     current = headNode.head
     previous = headNode.head
-    while current.next != None:
+    while current.next:
         if current.data not in track_dict:
             track_dict[current.data] = 1
             previous = current
@@ -24,9 +24,9 @@ def removeDupsBuffer(headNode):
 def removeDuplicatesWOBuffer(headNode):
     "Remove Duplicates without buffer"
     current = headNode.head
-    while current.next != None:
+    while current.next:
         runner = current
-        while runner.next != None:
+        while runner.next:
             if runner.next.data == current.data:
                 runner.next = runner.next.next
             else:

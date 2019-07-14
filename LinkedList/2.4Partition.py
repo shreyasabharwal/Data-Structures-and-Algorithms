@@ -17,9 +17,9 @@ def partition(headNode, x):
     beforeTail = None
     afterHead = None
     afterTail = None
-    while current != None:
+    while current:
         if current.data < x:
-            if beforeHead == None:
+            if not beforeHead:
                 beforeHead = current
                 beforeTail = beforeHead
                 current = current.next
@@ -28,7 +28,7 @@ def partition(headNode, x):
                 beforeTail = current
                 current = current.next
         else:
-            if afterHead == None:
+            if not afterHead:
                 afterHead = current
                 afterTail = afterHead
                 current = current.next
@@ -37,7 +37,7 @@ def partition(headNode, x):
                 afterTail = current
                 current = current.next
 
-    if beforeHead == None:
+    if not beforeHead:
         return afterHead
 
     beforeTail.next = afterHead

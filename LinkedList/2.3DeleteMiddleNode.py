@@ -16,7 +16,7 @@ from NodeInsertion import Node, LinkedList
 
 def deleteNode(node):
     "Delete middle node"
-    if node is None or node.next is None:
+    if not node or not node.next:
         return False
     nextnode = node.next
     node.data = nextnode.data

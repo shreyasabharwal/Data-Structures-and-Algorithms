@@ -33,5 +33,4 @@ class Solution(object):
             else:
                 i += 2
                 j += 2
-                continue
         return A

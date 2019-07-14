@@ -40,8 +40,11 @@ if __name__ == "__main__":
     print(checkBalanced(new_node))
 
     # check for unbalanced tree
-    node1 = Node(100)
-    node1.left = Node(50)
-    node1.left.left = Node(40)
-    node1.left.left.left = Node(600)
+    node1 = Node(1)
+    node1.left = Node(2)
+    node1.left.left = Node(3)
+    node1.left.left.left = Node(4)
+    node1.right = Node(2)
+    node1.right.right = Node(3)
+    node1.right.right.right = Node(4)
     print(checkBalanced(node1))

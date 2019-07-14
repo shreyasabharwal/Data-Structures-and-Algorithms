@@ -31,8 +31,7 @@ class Solution(object):
         """
         # unsorted - Time Complexity: O(n1), space complexity: O(n2)
         if len(nums1) < len(nums2):
-            obj = Solution()
-            obj.intersect(nums2, nums1)
+            self.intersect(nums2, nums1)
 
         d_nums, res = {}, []
 

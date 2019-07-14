@@ -7,14 +7,14 @@ from NodeInsertion import Node, LinkedList
 
 def printElements(current):
     "Print elements of the linked list"
-    while current != None:
+    while current:
         print(current.data, end='\t')
         current = current.next
 
 
 def reverse(node):
     head = None
-    while(node != None):
+    while(node):
         newNode = Node(node.data)
         newNode.next = head
         head = newNode
@@ -23,7 +23,7 @@ def reverse(node):
 
 
 def isEqual(nodel1, nodel2):
-    while nodel1 != None and nodel2 != None:
+    while nodel1 and nodel2:
         if nodel1.data != nodel2.data:
             return False
         nodel1 = nodel1.next

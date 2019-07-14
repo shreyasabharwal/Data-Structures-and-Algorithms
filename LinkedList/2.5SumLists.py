@@ -16,7 +16,7 @@ from NodeInsertion import Node, LinkedList
 def length(current):
     "Return length of linked list"
     count = 0
-    while current != None:
+    while current:
         count += 1
         current = current.next
     return count
@@ -25,21 +25,21 @@ def length(current):
 def sumList(l1, l2, carry):
     'Sum the linked list with digits stored in reverse order'
     # Base case
-    if l1 is None and l2 is None and carry == 0:
+    if not l1 and not l2 and carry == 0:
         return None
     value = carry
-    if l1 != None:
+    if l1:
         value += l1.data
-    if l2 != None:
+    if l2:
         value += l2.data
     # calculate carry over for next node
     carry = value//10
     # calculate data of the node
     value = value % 10
     sumNode = Node(value)
-    if l1 != None and l2 != None:
-        nextNode = sumList(l1.next if l1 != None else None,
-                           l2.next if l2 != None else None, carry)
+    if l1 and l2:
+        nextNode = sumList(l1.next if l1 else None,
+                           l2.next if l2 else None, carry)
         sumNode.next = nextNode
     return sumNode
 
@@ -55,12 +55,12 @@ def padZeros(ll, num_of_zeros):
 
 def callRecSumList(l1, l2, carry=0):
     sumNode = Node()
-    if l1.next != None and l2.next != None:
+    if l1.next and l2.next:
         sumNode.next, carry = callRecSumList(l1.next, l2.next)
     value = carry
-    if l1 != None:
+    if l1:
         value += l1.data
-    if l2 != None:
+    if l2:
         value += l2.data
     carry = value//10
     #print(value, ',', carry, '\n')

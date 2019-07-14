@@ -13,11 +13,11 @@ from NodeInsertion import Node, LinkedList
 
 def findTailAndSize(headNode):
     'Return the tail node and size of linked list'
-    if headNode == None:
+    if not headNode:
         return None
     tail = headNode
     count = 0
-    while tail.next != None:
+    while tail.next:
         tail = tail.next
         count += 1
     return tail, count
@@ -46,7 +46,7 @@ def findIntersection(l1headNode, l2headNode):
             l1headNode, diffLen) if l1size > l2size else increment(l2headNode, diffLen)
         shorter = l2headNode if l1size > l2size else l1headNode
 
-    while shorter != None and longer != None:
+    while shorter and longer:
         if shorter == longer:
             return shorter
         shorter = shorter.next
