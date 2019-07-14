@@ -5,7 +5,9 @@
  |*#*| Title |
  |---|-------|
 1 |[Two Sum](../master/Arrays%20and%20Strings/001.TwoSum.py)
+7 |[Reverse Integer](../master/7.ReverseInteger.py)
 13 |[Roman To Integer](../master/Arrays%20and%20Strings/013.RomanToInteger.py)
+19 |[Remove Nth Node from Linked List](../master/LinkedList/19.RemoveNthNodeFromLL.py)
 21 |[Merge Two Linked Lists](../master/LinkedList/21.MergeTwoLinkedLists.py)
 26 |[Remove Duplicates from Sorted Array](../master/Arrays%20and%20Strings/026.RemoveDuplicatesFrmSortedArray.py)
 27 |[Remove Element](../master/Arrays%20and%20Strings/027.RemoveElement.py)
@@ -18,6 +20,7 @@
 101 |[Symmetric Tree](../master/Trees/101.SymmetricTree.py)
 104 |[Maximum Depth Of Binary Tree](../master/Trees/104.maxDepthOfTree.py)
 108 |[Sorted Array to BST](../master/Trees/108.sortedArrayToBST.py)
+110 |[Is Balanced](../master/Trees/110.IsBalanced.py)
 125 |[Valid Palindrome](../master/Arrays%20and%20Strings/125.ValidPalindrome.py)
 136 |[Single Number](../master/Arrays%20and%20Strings/136.SingleNumber.py)
 169 |[Majority Element](../master/Arrays%20and%20Strings/169.MajorityElement.py)
@@ -46,8 +49,10 @@
 897 |[Increasing Order Search Tree](../master/Trees/897.IncreasingOrderSearch.py)
 922 |[Sort Array By Parity II](../master/Sorting/922.SortArrayByParityII.py)
 938 |[Range Sum of BST](../master/Trees/938.RangeSumOfBST.py)
+961 |[N-Repeated Element](../master/Arrays%20and%20Strings/961.N-RepeatedElement.py)
 965 |[Univalued Binary Tree](../master/Trees/965.UnivaluedBinaryTree.py)
 976 |[Largest Perimeter Triangle](../master/Sorting/976.LargestPerimeterTriangle.py)
+985 |[Sum of Even Nums](../master/Arrays%20and%20Strings/985.SumOfEvenNums.py)
 1030 |[Matrix Cells In Distance Order](../master/Sorting/1030.MatrixCellsInOrder.py)
 
 ## Cracking the Coding Interview
